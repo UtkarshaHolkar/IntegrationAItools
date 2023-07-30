@@ -14,6 +14,7 @@ const Dashboardlayout = ({
        <Navbar />
         {children}
        </main>
+       <div>comment it off</div>
     </div>
   )
 }
