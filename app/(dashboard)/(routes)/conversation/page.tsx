@@ -13,7 +13,7 @@ import { zodResolver} from "@hookform/resolvers/zod";
 import {Form,FormField, FormItem, FormControl} from '@/components/ui/form'
 import {Input} from '@/components/ui/input'
 import {Button} from '@/components/ui/button'
-
+import { Empty } from '@/components/empty';
 
 const Conversationpage = () => {
   const router = useRouter();
@@ -88,6 +88,11 @@ const Conversationpage = () => {
             </Form>
          </div>
          <div className='space-y-4 mt-4'>
+          {messages.length===0 && !isLoading && (
+            <div>
+              <Empty label="no convo statrted"/>
+            </div>
+          )}
                 <div className='flex-flex-col-reverse gap-y-4'>
                      {messages.map((message)=>(
                       <div key={message.content}>
