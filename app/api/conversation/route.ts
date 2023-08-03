@@ -12,7 +12,7 @@ export async function POST(
     req: Request
 ){
     try{
-        const {userId }=auth();
+        const {userId}=auth();
         const body = await req.json();
         const {messages}=body;
 
@@ -25,6 +25,7 @@ export async function POST(
         }
         if(!messages){
             return new NextResponse("Messages are required",{status:400});
+        }
 
             const response = await openai.createChatCompletion({
                 model:"gpt-3.5-turbo",
@@ -32,7 +33,7 @@ export async function POST(
             });
 
             return NextResponse.json(response.data.choices[0].message);   
-        }
+        
     }
     catch(error){
       console.log("[CONVERSATION_ERROR]",error);

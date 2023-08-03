@@ -17,7 +17,7 @@ export const Empty = ({
             />
         </div>
         <p className='text-muted-foreground text-sm text-center'>
-            {label}
+            {label} 
         </p>
     </div>
   )
