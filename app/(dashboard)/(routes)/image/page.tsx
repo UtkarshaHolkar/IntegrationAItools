@@ -94,7 +94,7 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
                            <Input 
                            className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                            disabled={isLoaing}
-                           placeholder="A picture of a horse in Swiss alps"
+                           placeholder="a picture of a horse in swiss alps"
                            {...field}
                            /> 
                         </FormControl>
