@@ -9,4 +9,3 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-// sdfghjk remove this
