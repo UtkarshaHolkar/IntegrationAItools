@@ -9,4 +9,3 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-// remove this comment
