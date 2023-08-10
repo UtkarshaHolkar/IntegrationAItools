@@ -10,6 +10,4 @@ const nextConfig = {
 module.exports = nextConfig
 
 
-
-/////////dfghjkl;
-/////httttttttttttttttttttttttfffffffff
+//gh
