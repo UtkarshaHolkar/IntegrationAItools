@@ -9,9 +9,3 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-//asdcfvgbhn
-//asdcfvgbhn
-//asdcfvgbhn
-//asdcfvgbhn
-//asdcfvgbhn
-//asdcfvgbhn
