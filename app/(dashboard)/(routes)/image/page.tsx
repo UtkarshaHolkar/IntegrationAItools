@@ -215,9 +215,3 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
 
 export default ImagePage;
 
-//sssssssssssssssssssssssssssssss
-//sssssssssssssssssssssssssssssss
-//sssssssssssssssssssssssssssssss
-//sssssssssssssssssssssssssssssss
-//sssssssssssssssssssssssssssssss
-//sssssssssssssssssssssssssssssss
